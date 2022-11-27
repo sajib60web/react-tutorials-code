@@ -1,4 +1,5 @@
 import React from 'react'
+
 // import List from "./components/UniqueList/List";
 // import Nested from "./components/mapping/Nested";
 // import Card1 from './components/ClassComponent/Card1';
@@ -15,12 +16,20 @@ import React from 'react'
 // import FORM from './components/FORM/FORM';
 // import FORM1 from './components/FORM/FORM1';
 // import FORM2 from './components/FORM/FORM2';
-import SATET_LIFTING_NEWAPP from './components/SATET_LIFTING/NewApp';
+// import SATET_LIFTING_NEWAPP from './components/SATET_LIFTING/NewApp';
+// import TODO_APP from './components/SATET_LIFTING/Home';
+// import Toggle from './components/Toggle/Toggle';
+// import FAQS from './components/FAQ/FAQS';
+// import UseEffectExample from './components/HOOKS/useEffect/UseEffectExample';
+// import DataFetch from './components/HOOKS/useEffect/DataFetch';
+// import DataFetch from './components/HOOKS/CustomHooks/DataFetch';
+// import Table from './components/Table/Table';
+import PROP_TYPES_USERS from './components/PropTypes/Users';
 
 function App() {
     return (
         <div>
-            <SATET_LIFTING_NEWAPP />
+            <PROP_TYPES_USERS />
         </div>
     )
 }
