@@ -36,7 +36,7 @@ const UseReducer = () => {
         <div>
             <h3>Book List</h3>
             <form onSubmit={handleSubmit}>
-                <input type="text" value={bookName} onChange={(e) => { setBookName(e.target.value) }} />
+                <input type="text" value={bookName} onChange={(e) => { setBookName(e.target.value) }} required />
                 <button type="submit">Add Book</button>
             </form>
             {bookState.isModalOpen && <Modal modalText={bookState.modalText} />}
